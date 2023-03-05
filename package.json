@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss-cli",
+  "version": "1.0.0",
+  "description": "setup tailwindcss for tailwind cli",
+  "main": "index.js",
+  "scripts": {
+    "compile-tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ced_stark08",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
